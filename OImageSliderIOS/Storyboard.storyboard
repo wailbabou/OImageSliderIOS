@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image Slider View Controller-->
+        <scene sceneID="CPn-vb-EBj">
+            <objects>
+                <viewController storyboardIdentifier="myCustomController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6rU-td-K27" customClass="OImageSliderViewController" customModule="OImageSliderIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D1I-mr-ygW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oyb-k4-WAU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <outlet property="delegate" destination="6rU-td-K27" id="0u6-gO-nkf"/>
+                                </connections>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ixi-WL-wmU">
+                                <rect key="frame" x="0.0" y="610" width="375" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="aXY-KW-Wse"/>
+                                </constraints>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbN-RA-lgu">
+                                <rect key="frame" x="16" y="20" width="30" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.92847795050000004" green="0.92847795050000004" blue="0.92847795050000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="exit:" destination="6rU-td-K27" eventType="touchUpInside" id="40z-fi-9TK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ixi-WL-wmU" firstAttribute="trailing" secondItem="WNV-PX-sYQ" secondAttribute="trailing" id="4Vd-Na-51Q"/>
+                            <constraint firstItem="SbN-RA-lgu" firstAttribute="leading" secondItem="WNV-PX-sYQ" secondAttribute="leading" constant="16" id="Hqu-N2-5Zn"/>
+                            <constraint firstItem="WNV-PX-sYQ" firstAttribute="trailing" secondItem="Oyb-k4-WAU" secondAttribute="trailing" id="PYW-aE-Dtd"/>
+                            <constraint firstItem="Oyb-k4-WAU" firstAttribute="top" secondItem="D1I-mr-ygW" secondAttribute="top" id="UcM-vj-GCe"/>
+                            <constraint firstItem="WNV-PX-sYQ" firstAttribute="bottom" secondItem="Oyb-k4-WAU" secondAttribute="bottom" id="bDG-ww-gcx"/>
+                            <constraint firstItem="Ixi-WL-wmU" firstAttribute="leading" secondItem="WNV-PX-sYQ" secondAttribute="leading" id="lyh-X9-lnp"/>
+                            <constraint firstItem="Oyb-k4-WAU" firstAttribute="leading" secondItem="D1I-mr-ygW" secondAttribute="leading" id="oeY-ok-Q7t"/>
+                            <constraint firstItem="SbN-RA-lgu" firstAttribute="top" secondItem="WNV-PX-sYQ" secondAttribute="top" id="sQ3-Rm-YvI"/>
+                            <constraint firstItem="WNV-PX-sYQ" firstAttribute="bottom" secondItem="Ixi-WL-wmU" secondAttribute="bottom" constant="20" id="t4Y-c9-acr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WNV-PX-sYQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="Ixi-WL-wmU" id="IhO-FI-lFH"/>
+                        <outlet property="scrollView" destination="Oyb-k4-WAU" id="ibM-Kp-4f9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPv-vM-mgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720.79999999999995" y="131.78410794602701"/>
+        </scene>
+    </scenes>
+</document>
