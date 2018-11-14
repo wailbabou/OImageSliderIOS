@@ -40,13 +40,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		66AB960ED780A89AC84AF729 /* Pods_OImageViewSliderIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OImageViewSliderIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89379CCC5DEAAD8D107C8C48 /* OImageViewSliderIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OImageViewSliderIOS.podspec; path = ../OImageViewSliderIOS.podspec; sourceTree = "<group>"; };
+		89379CCC5DEAAD8D107C8C48 /* OImageViewSliderIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OImageViewSliderIOS.podspec; path = ../OImageViewSliderIOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8DC97A41300218C091D37497 /* Pods-OImageViewSliderIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OImageViewSliderIOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OImageViewSliderIOS_Example/Pods-OImageViewSliderIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		956EFC719612D45FFBF41DD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		956EFC719612D45FFBF41DD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A6651045219D49B9DE3B4FB4 /* Pods_OImageViewSliderIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OImageViewSliderIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62C2CFB8FEA288698728149 /* Pods-OImageViewSliderIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OImageViewSliderIOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OImageViewSliderIOS_Tests/Pods-OImageViewSliderIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF4D932EB2C5A513B1B49DA8 /* Pods-OImageViewSliderIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OImageViewSliderIOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OImageViewSliderIOS_Tests/Pods-OImageViewSliderIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F4018BC9075AA337E51F9E01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F4018BC9075AA337E51F9E01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
