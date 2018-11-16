@@ -1,0 +1,6 @@
+framework module Pods_OImageSliderIOS {
+  umbrella header "Pods-OImageSliderIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
