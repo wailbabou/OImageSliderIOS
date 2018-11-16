@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Simple images slideshow for IOS apps
-DESC
+  A simple library for ios developers : images slideshow for IOS apps
+  DESC
 
   s.homepage         = 'https://github.com/wailbabou/OImageSLiderIOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -39,4 +39,5 @@ DESC
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AlamofireImage', '~> 3.4'
+  s.swift_version  = '4.2'
 end
