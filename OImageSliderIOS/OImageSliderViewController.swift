@@ -42,7 +42,7 @@ class OImageSliderViewController: UIViewController ,UIScrollViewDelegate {
         }
     }
     func putAllImages() {
-        var i = 0;
+        var i = 0
         for img in imagesUrls! {
             let bundle = Bundle(for: ItemSlider.self)
             if let myView =  UINib(nibName: "ItemView", bundle: bundle).instantiate(withOwner: self, options: nil).first as? ItemSlider {
