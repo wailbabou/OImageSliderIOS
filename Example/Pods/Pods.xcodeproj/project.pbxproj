@@ -21,7 +21,6 @@
 		95C4130A58E8466B6778A7CE6EA5BE3C /* OImageViewSliderIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 316E3741215401BA71437BAFD1F3F420 /* OImageViewSliderIOS-dummy.m */; };
 		E1449473841A02CB8FCEEFB3C2AD46CE /* OImageViewSliderIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2D0E1DA0DDA48EFD9330C17D0411A4 /* OImageViewSliderIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3744A46F3C313E807E9EF5ADEEBEF8F /* Pods-OImageViewSliderIOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE214168763C47F8FC287E2FD2C4DB8E /* Pods-OImageViewSliderIOS_Example-dummy.m */; };
-		EB4D54C097C5B2F894181992D0E4922C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39F08F5276D7FD11F0CB78B527C17D /* ReplaceMe.swift */; };
 		F607C2F23B1933D98C14811A28A4D8F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +80,6 @@
 		C61D417DFC6C0641B2E5844ED007E933 /* Pods-OImageViewSliderIOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OImageViewSliderIOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C96023B2A66EDFEB7816F297AA4889BB /* Pods-OImageViewSliderIOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OImageViewSliderIOS_Tests.modulemap"; sourceTree = "<group>"; };
 		CC2D0E1DA0DDA48EFD9330C17D0411A4 /* OImageViewSliderIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OImageViewSliderIOS-umbrella.h"; sourceTree = "<group>"; };
-		CE39F08F5276D7FD11F0CB78B527C17D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OImageViewSliderIOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DD0CB2F63C709E04B321A854D2029F31 /* Pods_OImageViewSliderIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OImageViewSliderIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02AD2FC42C129DEB5227526F38F1B24 /* OImageViewSliderIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OImageViewSliderIOS-prefix.pch"; sourceTree = "<group>"; };
 		F1BE1E47905259C180400918262BFCCA /* Pods-OImageViewSliderIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OImageViewSliderIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				04C16E8B219F7DC3001D075F /* Storyboard.storyboard */,
 				04C16E8C219F7DC3001D075F /* utils */,
 				04C16E8F219F7DC3001D075F /* views */,
-				CE39F08F5276D7FD11F0CB78B527C17D /* ReplaceMe.swift */,
 				60365457442D0EB88C09CC4A4A6D3A4B /* Pod */,
 				9EF49D7639277F85AEC5FFD89B187555 /* Support Files */,
 			);
@@ -398,7 +395,6 @@
 				04C16E91219F7DC3001D075F /* ItemSlider.swift in Sources */,
 				04C16E92219F7DC3001D075F /* OImageSlider.swift in Sources */,
 				04C16E96219F7DC3001D075F /* OImageSliderViewController.swift in Sources */,
-				EB4D54C097C5B2F894181992D0E4922C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
