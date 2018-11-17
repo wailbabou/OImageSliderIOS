@@ -1,6 +1,0 @@
-framework module OImageViewSliderIOS {
-  umbrella header "OImageViewSliderIOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
