@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
   s.name             = 'OImageSliderIOS'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Simple images slideshow for IOS apps'
 
   # This description is used to generate tags and improve search results.
