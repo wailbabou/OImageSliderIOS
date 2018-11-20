@@ -17,7 +17,8 @@ This library use :  <br>
 
 ## Requirements
 
- <a href="https://github.com/Alamofire/AlamofireImage">AlamofireImage</a> <br>
+<a href="https://github.com/Alamofire/AlamofireImage">AlamofireImage</a> <br>
+SWIFT 4.2
  
 ## Installation
 
